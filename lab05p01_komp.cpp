@@ -1,13 +1,11 @@
 #include <iostream>
 #include <time.h>
 using namespace std;
-
 void wypisz_tablice(int t[], int ile);
 void losuj_tablice(int t[], int ile, int Od = 0, int Do = 100);
 int losuj_tablice_v2(int t[], int ile, int Od, int Do);
 void zeruj_liczby_ujemne(int tab[], int ile);
 void sortowanie_babelkowe_tablicy(int t[], int ile);
-
 int main()
 {
     srand(time(NULL));
@@ -17,11 +15,10 @@ int main()
     wypisz_tablice(tab, dlugosc);
     sortowanie_babelkowe_tablicy(tab, dlugosc);
     wypisz_tablice(tab, dlugosc);
-    zeruj_liczby_ujemne(tab,dlugosc);
+    zeruj_liczby_ujemne(tab, dlugosc);
     wypisz_tablice(tab, dlugosc);
     return 0;
 }
-
 void losuj_tablice(int t[], int ile, int Od, int Do)
 {
     for (int i = 0; i < ile; i++)
@@ -29,7 +26,6 @@ void losuj_tablice(int t[], int ile, int Od, int Do)
         t[i] = rand() % (Do - Od + 1) + Od;
     }
 }
-
 int losuj_tablice_v2(int t[], int ile, int Od, int Do)
 {
     for (int i = 0; i < ile; i++)
@@ -41,8 +37,7 @@ int losuj_tablice_v2(int t[], int ile, int Od, int Do)
 void wypisz_tablice(int t[], int ile)
 {
     cout << endl
-         << "------------------------------------------------------------------------"
-         << endl;
+         << "------------------------------------------------------------------------" << endl;
     for (int i = 0; i < ile; i++)
     {
         if (i % 15 == 0 && i != 0)
@@ -50,10 +45,8 @@ void wypisz_tablice(int t[], int ile)
         cout << t[i] << " : ";
     }
     cout << endl
-         << "----------------------------------------------------------------------"
-         << endl;
+         << "----------------------------------------------------------------------" << endl;
 }
-
 void zeruj_liczby_ujemne(int t[], int ile)
 {
     for (int i = 0; i < ile; i++)
@@ -64,7 +57,6 @@ void zeruj_liczby_ujemne(int t[], int ile)
         }
     }
 }
-
 void sortowanie_babelkowe_tablicy(int t[], int ile)
 {
     int temp;
