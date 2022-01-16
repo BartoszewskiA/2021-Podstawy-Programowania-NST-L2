@@ -1,0 +1,15 @@
+Ile jest 2+2?
+2+2=4
+2+2=3
+2+2=5
+1
+Jak mial na imie Juliusz Cezar?
+Juliusz
+Gajusz
+Cezar
+2
+Pamiec operacyjna wykonywana jest za pomoca:
+ROM
+CACHE
+RAM
+3

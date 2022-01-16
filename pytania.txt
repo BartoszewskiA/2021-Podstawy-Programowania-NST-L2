@@ -1,0 +1,34 @@
+Ile jest 2X2?
+2x2=3
+2x2=4
+2x2=5
+2
+Jak mial na imie Juliusz Cezar?
+Jaliusz
+Cezar
+Gajusz
+3
+Pamiec operacyjna to
+RAM
+ROM
+CACHE
+1
+Jakiego jezyka programowania sie tu uczymy?
+c++
+c#
+Python
+13+5?
+=3
+=6
+=8
+3
+aaaaaaaaa
+aa
+aaaa
+aaaaa
+2
+bbbbbb
+wwww
+www
+w
+2
